@@ -1,0 +1,52 @@
+input#chat{
+            width: 250px
+        }
+#conteneur{
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+}
+#champreponse{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+#console-container {
+	width: 500px;
+	float:left;
+}
+#player1,#player2 {
+	float:left;
+	border: 1px solid #CCCCCC;
+	height: 140px;
+	width: 15%;
+	padding: 5px;
+}
+.connected{
+	color:green;
+	font-size:20px;	
+}
+#console {
+	border: 1px solid #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	height: 500px;
+	overflow-y: scroll;
+	padding: 5px;
+	color: grey;
+	font-family: "Open Sans";
+	font-size: 13px;
+}
+#resultat
+{
+	clear:both;
+	width:50%;
+	height: 30px;
+	border: 2px solid #15854E;
+	margin-left:150px;
+	margin-top:550px;
+}
+#console p {
+	padding: 0;
+	margin: 0;
+        }
